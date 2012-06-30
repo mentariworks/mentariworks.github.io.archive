@@ -1,9 +1,9 @@
 /*
-Project's name:
-Description:
-Version:
-Author:
-Last date modified:
+Project's name: MentariWorks
+Description: MentariWorks v5
+Version: 5.0
+Author: Mohd Huzairy @mohdhuzairy
+Last date modified: 19 May 2012
 */
 
 /*
@@ -138,21 +138,19 @@ a:hover
 /* Wrapping */
 #wrapper
 {
-	width:840px;
+	width:700px;
 	margin:0 auto;
 }
 
 /* Header section */
 #header
 {
-	margin-top:50px;
-	border-bottom:3px double #eee;
+	margin-top:60px;
 }
 
 #masthead
 {
 	width:60px;
-	margin:0 auto;
 	margin-bottom:40px;
 }
 
@@ -163,50 +161,70 @@ a:hover
 }
 
 /* Content section */
+
 #content
 {
-	padding:50px 0;
-	text-align:center;
+	margin:0;
+	padding:0 0 10px 0;
 }
 
-#content h2
+#content h2, #content h3
 {
 	font-family:"Droid Serif", serif, georgia;
 	font-size:2.4em;
 	color:#444;
-	line-height:160%;
-	width:700px;
-	margin:0 auto;
+	line-height:150%;
 	font-weight:normal;
+	margin-bottom:15px;
 }
 
-/* Etc */
-#etc
+#content h3
 {
-	padding: 20px 0 10px;
-	text-align:center;
-	border-top:3px double #eee;
+	font-size:1.6em;
+	margin-top:40px;
 }
-#etc ul
+
+#content p
+{
+	line-height:180%;
+}
+
+#lead p
+{
+	font-size:2.4em;
+}
+
+/* Footer section */
+#footer
+{
+	padding:10px 0 50px 0;
+	color:#999;
+	font-size:0.9em;
+}
+
+#footer ul
 {
 	list-style:none;
 	margin-bottom:10px;
 }
 
-#etc ul li
+#footer ul li
 {
 	display:inline;
-	margin:0 7px;
+	margin:0 10px 0 0;
 }
 
-
-/* Footer section */
-#footer
+#footer strong
 {
-	text-align:center;
-	border-top:3px double #eee;
-	padding:20px 0 50px 0;
-	color:#999;
+	color:#000;
+	font-weight:normal;
+}
+
+#footer p
+{
+	color:#666;
+	margin-top:35px;
+	padding-top:20px
 }
 
 /*
@@ -266,18 +284,29 @@ Credits: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
 
 	#wrapper
 	{
-		width:320px;
+		width:350px;
+		text-align:center;
+	}
+
+	#masthead
+	{
+		margin:0 auto;
+		padding:0 0 20px 0;
 	}
 
 	#content
 	{
-		padding:30px 0;
+		padding:10px 0;
 	}
 
 	#content h2
 	{
-		width:300px;
-		font-size:1.6em;
+		font-size:1.2em;
+	}
+
+	#footer strong
+	{
+		display:block;
 	}
 }
 
